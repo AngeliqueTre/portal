@@ -3138,7 +3138,7 @@ label.mt10.valid {
 @media screen and (max-width: 900px)
 {
     .logo{
-        width: 40%;
+        width: 20%;
     }
 
     .rightImg::after, .leftImg::after {
