@@ -1348,14 +1348,19 @@ ul#nav li ul a,
 }
 
 .welcome-text h1 {
+    font-family: 'Reality-Hyper-Regular';
     font-size: 110px;
-    margin-bottom: 30px;
     -webkit-text-stroke: 1px black;
+    font-weight: bold;
+    color: white;
 }
 
 .welcome-text p {
     font-size: 25px;
     line-height: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    color: white;
 }
 
 .home-button {
@@ -3128,4 +3133,15 @@ label.mt10.valid {
 .single-widget.instafeed li {
     float: left;
     width: 33.33%;
+}
+
+@media screen and (max-width: 900px)
+{
+    .logo{
+        width: 40%;
+    }
+
+    .rightImg::after, .leftImg::after {
+        display: none;
+    }
 }
